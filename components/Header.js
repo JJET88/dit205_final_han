@@ -6,10 +6,10 @@ export default function Header() {
 	return (
 		<header className="flex flex-col sm:flex-row justify-between items-center mb-12 pt-6">
 			<div>
-				<h1 className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 mb-2">
-					TECH DEVICES
+				<h1 className="text-3xl md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 mb-2">
+					Manage Your Game
 				</h1>
-				<p className="text-cyan-300 text-lg">🛍️ Manage Your Game</p>
+				{/* <p className="text-cyan-300 text-lg">🛍️ Manage Your Game</p> */}
 			</div>
             <div className=" flex items-center gap-5">
 

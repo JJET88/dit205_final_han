@@ -99,7 +99,7 @@ export default function ProductList() {
 							></div>
 						</div>
 						<p className="text-xl text-cyan-400 font-bold mt-6 animate-pulse tracking-wider">
-							LOADING PRODUCTS...
+							LOADING GAMES...
 						</p>
 						<div className="flex justify-center gap-1 mt-4">
 							<span className="w-2 h-2 bg-cyan-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></span>
@@ -129,7 +129,7 @@ export default function ProductList() {
 					<div className="relative max-w-2xl mx-auto">
 						<input
 							type="text"
-							placeholder="🔍 SEARCH PRODUCTS..."
+							placeholder="🔍 SEARCH GAMES..."
 							className="w-full p-5 pl-14 bg-slate-900/50 backdrop-blur-xl border-2 border-cyan-400/30 rounded-2xl shadow-lg shadow-cyan-500/10 focus:ring-4 focus:ring-cyan-400/50 focus:border-cyan-400 focus:outline-none text-white placeholder-cyan-500/50 transition-all duration-300 font-medium tracking-wide"
 							value={search}
 							onChange={(e) => setSearch(e.target.value)}
